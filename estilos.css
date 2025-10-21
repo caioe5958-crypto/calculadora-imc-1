@@ -1,0 +1,115 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+/*------- HEAD ------*/
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.info {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+    max-width: 600px;
+    margin: 10px auto 20px;
+}
+
+.atencao {
+    font-style: italic;
+    font-weight: bold;
+    color: #e21e05;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*------- INPUTS ------*/
+
+input[type="number"] {
+    width: 200px;
+    display: block;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 5px auto;
+}
+
+input[type="number"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/*------- LABELS -------*/
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    color: #333;
+    font-size: 16px;
+    text-align: center;
+}
+
+/*------- BUTTON -------*/
+
+button {
+    background-color: #007bff;
+    color: azure;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.98);}
+
+
+/*------- RESULTADOS -------*/
+
+#resultado, #classificacao {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#resultado {
+    color: #2c3e50;
+    background-color: #ecf0f1;
+}
+
+#classificacao {
+    color: #f2f5f7;
+    background-color: #354047;
+}
