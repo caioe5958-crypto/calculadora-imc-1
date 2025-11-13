@@ -9,9 +9,8 @@ function calcularIMC(){
 
     let imc = peso / (alturaMetros * alturaMetros);
 
-    document.getElementById("resultado").textContent = 'Seu IMC: ' + imc.toFixed(2) + ".";
+    document.getElementById("resultado").textContent = `Seu IMC: ${imc.toFixed(2)}`
 
-    let classificacao = "";
     if (imc < 18.5) {
         classificacao = "Magreza"} 
     else if (imc >= 18.5 && imc < 25) {

@@ -5,22 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IMC Calculator</title>
     <link rel="stylesheet" href="estilos.css">
-    <script src="script.js"></script>
 </head>
 <body>
     <h1>Calculadora de IMC</h1>
         <p class="info">IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.</p>
         <p class="atencao">ATENÇÃO: Digite sua altura sem vírgula ou pontos.</p>
+    
     <label for="peso">Digite seu peso (Kg):</label>
     <input type="number" id="peso">
-        <br>
+
     <label for="altura">Digite sua altura (cm):</label>
     <input type="number" id="altura">
-        <br>
+ 
     <button onclick="calcularIMC()">Calcular</button>
 
     <p id="resultado"></p>
     <p id="classificacao"></p>
+
+    <script src="script.js"></script>
 </body>
     <footer>&copy; Matheus Couto 2024</footer>
 </html>
